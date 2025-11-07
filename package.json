@@ -1,0 +1,52 @@
+{
+  "name": "retrieve-jsonplaceholder-user-next",
+  "version": "0.1.0",
+  "description": "A Next.js project to retrieve and display user data from JSONPlaceholder API.",
+  "author": {
+    "name": "RAHMAD ALAMSYAH NAZARUDDIN",
+    "email": "nzr.rahmad@gmail.com"
+  },
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier . --write",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.1.1",
+    "axios": "^1.8.3",
+    "flowbite-react": "^0.8.0",
+    "jose": "^6.0.10",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.45.1",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^14.3.1",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "jsdom": "^22.1.0",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vitest": "^1.6.1"
+  }
+}
