@@ -4,7 +4,7 @@ This project is a Next.js (app router) dashboard demo that fetches users and pos
 
 Important: This is a demo/starter project. The login and persistence are mocked for development.
 
-![screenshot](ss3.png)
+![screenshot](./public/Screenshot.png)
 
 ## Local development
 
